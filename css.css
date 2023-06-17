@@ -23,7 +23,7 @@ ul{
     list-style-type: none;
 }
 .script li{
-    margin-left: 15px;
+    margin-left: 20px;
     font-size: 20px;
     padding: 5px 0px;
     list-style-type: decimal;
@@ -37,6 +37,10 @@ ul{
 }
 .script li:nth-child(3n-2){
     background: rgb(188, 236, 255);
+}
+.script li{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 a{
     text-decoration: none;
