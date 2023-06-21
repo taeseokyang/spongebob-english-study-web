@@ -1,25 +1,48 @@
+<?php 
+  include '../../inc_head.php';
+?>
 <!DOCTYPE HTML>
 <html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <title>english with sponge_bob</title>
-        <link rel="stylesheet" type="text/css" href="css/css.css?1.1.1">
+        <link rel="stylesheet" type="text/css" href="../../css/css.css?2.2.2">
     </head>
     <body>
-        <a href="main.html"><div class="head">
-            <img class="headimg" src="images/spongebob.jpeg">
+    <div class="top">
+        <?php
+            echo $_SESSION[ 'username' ]
+        ?>
+        
+        <?php
+            if ( $jb_login ) {
+        ?>
+        님 안녕하세요
+        <a href="logout.php">로그아웃</a>
+        <a href="">마이페이지</a>
+        <?php
+            }else{
+        ?>
+        <a href="../../join.php">회원가입</a>
+        <a href="../../login.php">로그인</a>
+        <?php
+            }
+        ?>
+        </div>
+        <a href="../../main.php"><div class="head">
+            <img class="headimg" src="../../images/spongebob.jpeg">
             <h1>SpongeBob with English</h1>
         </div></a>
         <a href="https://www.netflix.com/watch/81408831?trackId=255824129&tctx=0%2C2%2CNAPA%40%40%7C4bf66e70-5905-4b84-8a3e-668aaeeab6bf-103691018_titles%2F1%2F%2Fsp%2F0%2F0%2CNAPA%40%40%7C4bf66e70-5905-4b84-8a3e-668aaeeab6bf-103691018_titles%2F1%2F%2Fsp%2F0%2F0%2Cunknown%2C%2C4bf66e70-5905-4b84-8a3e-668aaeeab6bf-103691018%7C1%2CtitlesResults%2C70155547%2CVideo%3A81408831%2CdetailsPageEpisodePlayButton">
-            <img class="netflix" src="images/netflix.png">
+            <img class="netflix" src="../../images/netflix.png">
         </a>
         <ul>
             <li>Kim is Green</li>
             <li>Park is Yellow</li>
             <li>Yang is Blue</li>
         </ul>
-        <a href="epi1.html">original</a>
+        <a href="epi1.php">original</a>
         <ul class='script'>
             <li><span>Mr. Krabs:</span> Hmm. Sounds like a mutiny.  What the...?  What in Neptune's knickers is this?! </li>
             <li><span>Frank (lifeguard):</span> Where's the dude in the boat, man? Where's the dude in the boat?!</li>

@@ -8,6 +8,18 @@ h1{
     font-size: 70px;
     color: #000000;
 }
+.top{
+    height: 30px;
+}
+.top a{
+    margin-left: 10px;
+    float: right;
+}
+.top span{
+    margin-left: 10px;
+    float: right;
+}
+
 body{
     width: 1000px;
     padding: 10px;
@@ -66,6 +78,8 @@ img{
     height: 120px;
     text-align: center;
     border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000;
+    padding-top: 10px;
 }
 .foot{
     margin-top: 50px;
