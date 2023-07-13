@@ -9,15 +9,22 @@
   </head>
   <body>
   <?php
-      $host = "sql101.infinityfree.com";
-      $user = "if0_34463025";
-      $pw = "fdBe0YiPtB0";
-      $dbName = "if0_34463025_spongenglish";
+      // $host = "sql101.infinityfree.com";
+      // $user = "if0_34463025";
+      // $pw = "fdBe0YiPtB0";
+      // $dbName = "if0_34463025_spongenglish";
+
+      $host = "127.0.0.1";
+      $user = "root";
+      $pw = "password";
+      $dbName = "spengo";
 
       $conn = new mysqli($host, $user, $pw, $dbName);
       
       /* DB 연결 확인 */
-    if($conn){ echo "Connection established"; }
+    if($conn){ 
+
+     }
     else{ die( 'Could not connect: ' . mysqli_error($conn) ); }
 
       $username = $_POST[ 'username' ];
@@ -26,7 +33,7 @@
       $q = "SELECT * FROM account WHERE id = '$username'";
       $result = mysqli_query($conn, $q);
       $row = mysqli_fetch_array($result);
-      if ($row !=null and $password == $row['pw']) {
+      if ($row !=null and $password == $row['password']) {
         $_SESSION[ 'username' ] = $username;
         Header("Location:main.php");
       } else {

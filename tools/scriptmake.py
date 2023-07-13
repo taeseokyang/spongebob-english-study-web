@@ -9,12 +9,12 @@ print("<ul class='script'>")
 for i in l:
 
     #remove actions
-    while 1:
-        if '[' not in i:
-            break
-        left = i.index('[')
-        right = i.index(']')
-        i = i[:left]+i[right+1:]
+    # while 1:
+    #     if '[' not in i:
+    #         break
+    #     left = i.index('[')
+    #     right = i.index(']')
+    #     i = i[:left]+i[right+1:]
 
 
     k = i.split(':')
