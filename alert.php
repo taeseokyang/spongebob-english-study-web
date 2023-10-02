@@ -10,13 +10,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <title>SPENGO</title>
-        <link rel="stylesheet" type="text/css" href="css/css.css?3.0.13">
+        <link rel="stylesheet" type="text/css" href="css/css.css?4.0.0">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     </head>
   <body>
   <div class="top">
     </div>
   <div class="head">
-        <a href="main.php"><h1>Spengo</h1><h4>Learn english like sponge</h4></a>
+        <a href="index.php"><h1>Spengo</h1><h4>Learn english like sponge</h4></a>
         </div>
         <div class="menu">
         
@@ -36,7 +37,7 @@
     }else if($code == '2') {
   ?>
     <h2>회원가입이 완료되었습니다.</h2>
-    <a href="main.php">메인 페이지로 가기</a>
+    <a href="index.php">메인 페이지로 가기</a>
   <?php
     }
   ?>

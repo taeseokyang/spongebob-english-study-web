@@ -16,9 +16,9 @@ for i in l:
   i = '\\"'.join(i.split('"')) 
   if ':' in i:
     k = i.index(':')
-    sql = 'INSERT INTO script VALUES(NULL,"sponge_bob",8,2,'+str(index)+',"'+i[:k]+'","'+i[k+1:]+'")'
+    sql = 'INSERT INTO script VALUES(NULL,"sponge_bob",8,3,'+str(index)+',"'+i[:k]+'","'+i[k+1:]+'",NULL)'
   else:
-    sql = 'INSERT INTO script VALUES(NULL,"sponge_bob",8,2,'+str(index)+',"!action","'+i+'")'
+    sql = 'INSERT INTO script VALUES(NULL,"sponge_bob",8,3,'+str(index)+',"!action","'+i+'",NULL)'
   cur.execute(sql)
   index +=1
   print("good")

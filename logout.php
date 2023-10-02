@@ -11,7 +11,7 @@
     <?php
       if ( $jb_login ) {
         session_destroy();
-        Header("Location:main.php");
+        Header("Location:index.php");
       } else {
         echo '<h1>로그인 상태가 아닙니다.</h1>';
       }

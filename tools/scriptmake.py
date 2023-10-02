@@ -23,4 +23,3 @@ for i in l:
     else:
         print('<li><span>',k[0],':</span>',*k[1:],'</li>',sep="")
 print("</ul>")
-

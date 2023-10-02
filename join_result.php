@@ -41,7 +41,7 @@
         $code = 0;
         include 'alert.php';
       } else {
-        $q = "INSERT INTO account VALUES(NULL,'$username','$password','$email')";
+        $q = "INSERT INTO account VALUES(NULL,'$username','$password','$email',0)";
         mysqli_query($conn, $q);
         $code = 2;
         include 'alert.php';

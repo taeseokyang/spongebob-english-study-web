@@ -35,7 +35,7 @@
       $row = mysqli_fetch_array($result);
       if ($row !=null and $password == $row['password']) {
         $_SESSION[ 'username' ] = $username;
-        Header("Location:main.php");
+        Header("Location:index.php");
       } else {
         $code = 1;
         include 'alert.php';
