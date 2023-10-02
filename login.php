@@ -31,7 +31,7 @@
     </div>
     <div class="contents">
     <div class="login">
-      c
+      <h5>로그인</h5>
       <form action="login_result.php" method="POST">
         <input class="account" type="text" name="username" minlength = "5"  maxlength = "15" placeholder="Username"></br>
         <input class="account" type="password" name="password" minlength = "5"  maxlength = "15" placeholder="Password"></br>
