@@ -17,11 +17,6 @@
 
 <img width="859" alt="Screenshot 2023-10-02 at 3 04 00 PM" src="https://github.com/taeseokyang/spongebob-english-study-web/assets/136783693/d54ca385-6d58-4a41-a9d1-95e9d0090d96">
 
-
-## 스크립트 페이지
-
-![image](https://github.com/taeseokyang/spongebob-english-study-web/assets/136783693/76b48f86-4869-45a2-ba45-e3c1f972d8cb)
-
 ## 마이 페이지
 <img width="844" alt="Screenshot 2023-10-02 at 3 04 21 PM" src="https://github.com/taeseokyang/spongebob-english-study-web/assets/136783693/df134076-29a5-491f-9266-461774ec3f5c">
 
